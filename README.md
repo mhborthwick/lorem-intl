@@ -2,4 +2,4 @@
 
 # Overview
 
-Generate lorem-ipsum text in multiple languages
+Generate Lorem Ipsum and placeholder text in multiple languages
