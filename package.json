@@ -4,7 +4,7 @@
   "description": "Generate lorem-ipsum text in multiple languages",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "build": "tsc"
   },
   "keywords": [],
