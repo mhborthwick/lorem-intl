@@ -1,17 +1,4 @@
-type Language =
-  | "latin"
-  | "mandarin"
-  | "spanish"
-  | "english"
-  | "hindi"
-  | "arabic";
-
-type Size = "short" | "medium" | "long";
-
-interface Config {
-  defaultLanguage: Language;
-  defaultSize: Size;
-}
+import { Config } from "./types";
 
 class LoremIntl {
   config: Config;
