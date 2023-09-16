@@ -2,11 +2,15 @@
   "name": "lorem-intl",
   "version": "1.0.0",
   "description": "Generate lorem-ipsum text in multiple languages",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Mike Borthwick",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
