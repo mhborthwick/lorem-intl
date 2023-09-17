@@ -110,4 +110,5 @@ class LoremIntl {
   }
 }
 
-export default new LoremIntl();
+const loremIntl = new LoremIntl();
+export { loremIntl };
