@@ -50,7 +50,7 @@ Type: `Config`
 
 Default: `{ defaultSize: 'medium', defaultLanguage: 'latin' }`
 
-### `.<supported-language>(size?)`
+### .supported-language(size?)
 
 Get a placeholder text by language.
 
